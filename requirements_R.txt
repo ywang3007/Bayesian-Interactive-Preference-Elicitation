@@ -1,0 +1,18 @@
+# R packages required by the hit-and-run sampler (core/hitandrun_sampler.R).
+#
+# Install from an R prompt:
+#     install.packages(c("volesti", "Rcpp", "RcppEigen", "BH"),
+#                      repos = "https://cloud.r-project.org")
+#
+# Linux/macOS system prerequisites (one-off, for compiling volesti):
+#     sudo apt-get install libboost-all-dev build-essential r-base-dev
+# or:
+#     brew install boost
+#
+# The sampler is called by core/U_Sampler.py via rpy2. R 4.4+ is the tested
+# platform.
+
+volesti
+Rcpp
+RcppEigen
+BH
