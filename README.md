@@ -159,8 +159,4 @@ python aggregate_timing.py --per_instance
 - `data/section4_settings/` (~68k JSON files) is also not shipped. §4
   plots and tables work entirely off the shipped `ASP_results.csv` /
   `time_results.csv`.
-- SGVI hyperparameters in all §4 and §5 code match the values disclosed
-  in §4.1 of the paper: `T=100, W_g=10000, δ=1e-5`, Adam
-  (`η=0.01, β₁=0.9, β₂=0.999, ε=1e-7`).
-- `fix_paths.py` is a one-off path-rewriting utility from the author's
-  server tree to this release layout; already applied.
+
